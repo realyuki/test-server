@@ -100,11 +100,6 @@ mongoose
     useNewUrlParser: true,
     useUnifiedTopology: true
   })
-  .then(() => {
-    app.listen(3000, () => {
-      console.log('connected')
-    })
-  })
   .catch((err) => {
     console.error(err)
   })
